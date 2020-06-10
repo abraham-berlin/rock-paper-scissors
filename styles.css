@@ -1,0 +1,50 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 50pt;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 20px 10px;
+}
+
+.statement {
+    display: block;
+    text-align: center;
+    margin: 20px 0px 0xp 0xp;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.buttons input {
+    width: 250px;
+    height: 250px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(215, 19, 233);
+}
+
+.buttons input:hover {
+    border-style: dotted;
+}
+
+.buttons input:focus {
+    width: 250px;
+    height: 250px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(215, 19, 233);
+}
+
+#rock {
+    background-image: url("rockIcon.png");
+}
